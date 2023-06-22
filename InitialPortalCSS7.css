@@ -157,13 +157,13 @@ div[name="Navbar"] {
 }
 
 .investNo a {
-    color: #0066CC;
+    color: #74ac44;
     font-weight: bold;
     font-size: 16px !important;
 }
 
 .date {
-    color: #0066cc;
+    color: #74ac44;
     font-weight: bold;
     font-size: 16px !important;
 }
@@ -179,7 +179,7 @@ div[name="Navbar"] {
 }
 
 .labelVal {
-    color: #004687 !important;
+    color: #375626 !important;
     font-size: 15px !important;
     font-weight: bold !important;
 }
@@ -517,12 +517,12 @@ div[name*="Worklist Card WT"] span.text-underline {
 
 
 ::-webkit-scrollbar-thumb {
-    background-color: #0066cc;
+    background-color: #375626;
     border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #0066cce0;
+    background-color: #375626;
 }
 
 
@@ -589,6 +589,7 @@ a[name*="NoBorder"] {
     justify-content: center;
     color: #fff;
     font-size: 15px;
+    background-color : #74ac44 !important ;
 }
 
 .task-details h4 {
