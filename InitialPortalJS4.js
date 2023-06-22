@@ -47,6 +47,7 @@ $(document).ready(function () {
         { "English": "Sales", "Arabic": "المبيعات", "French": "Ventes" },
         { "English": "Marketing", "Arabic": "التسويق", "French": "Marketing" },
         { "English": "Requisitions", "Arabic": "الطلبات", "French": "Demandes" },
+        { "English": "Our Services", "Arabic": "خدماتنا المختلفة", "French": "Nos Services" }
       
     ];
 
