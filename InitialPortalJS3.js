@@ -37,23 +37,17 @@ $(document).ready(function () {
     // Translating the Page On Load
 
     dictionary = [
-        { "English": "Investigations Management", "Arabic": "إدارة القضايا و التحقيقات", "French": "Aff. Juridiques" },
-        { "English": "Proceed Against Institution", "Arabic": "إجراء ضد مؤسسة", "French": "Procéder Contre Inst." },
-        { "English": "Proceed With Institution", "Arabic": "إجراء مع المؤسسة", "French": "Procéder Avec Inst." },
-        { "English": "Request Investigation", "Arabic": "إجراء تحقيق", "French": "Demander Enquête" },
-        { "English": "Conflict Of Interest Procedure", "Arabic": "إجراء تضارب المصالح", "French": "Procédure Conflit Intérêt" },
-        { "English": "Contract Study Procedures", "Arabic": "إجراءات دراسة العقود", "French": "Procédures Étude Contrats" },
-        { "English": "Click Here", "Arabic": "إضغط هنا", "French": "Cliquer" },
-        { "English": "Conduct Investigation", "Arabic": "إجراء تحقيق", "French": "Mener Enquête" },
-        { "English": "Investigation Requests", "Arabic": "طلبات التحقيق", "French": "Demandes D'Enquête" },
-        { "English": "Submit Complaint", "Arabic": "تقديم شكوى", "French": "Soumettre Plainte" },
         { "English": "New", "Arabic": "الجديدة", "French": "Nouveau" },
         { "English": "Active", "Arabic": "النشطة", "French": "Actif" },
         { "English": "Completed", "Arabic": "المكتملة", "French": "Terminé" },
         { "English": "Created By", "Arabic": "انشا من قبل", "French": "Créé Par" },
         { "English": "Investigation Status", "Arabic": "حالة التحقيق", "French": "Statut Enquête" },
         { "English": "Subject", "Arabic": "الموضوع", "French": "Sujet" },
-        { "English": "out of", "Arabic": "من", "French": "de" }
+        { "English": "Purchase", "Arabic": "طلب شراء", "French": "Achat" },
+        { "English": "Sales", "Arabic": "المبيعات", "French": "Ventes" },
+        { "English": "Marketing", "Arabic": "التسويق", "French": "Marketing" },
+        { "English": "Requisitions", "Arabic": "الطلبات", "French": "Demandes" },
+      
     ];
 
 
