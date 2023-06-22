@@ -47,7 +47,8 @@ $(document).ready(function () {
         { "English": "Sales", "Arabic": "المبيعات", "French": "Ventes" },
         { "English": "Marketing", "Arabic": "التسويق", "French": "Marketing" },
         { "English": "Requisitions", "Arabic": "الطلبات", "French": "Demandes" },
-        { "English": "Our Services", "Arabic": "خدماتنا المختلفة", "French": "Nos Services" }
+        { "English": "Our Services", "Arabic": "خدماتنا المختلفة", "French": "Nos Services" },
+        { "English": "out of", "Arabic": "من", "French": "de" },
       
     ];
 
@@ -174,7 +175,7 @@ function renderInvestCards() {
           <div class="cardHeader">
           <div class="investNoStatusWrap">
           <div class="status" style="background-color: ${statusColor};"></div>
-            <div class="investNo"><a href='https://srv-k2five/Runtime/Runtime/Form/RO.Form/?RefNo=${investNo}'>${investNo}</a></div>
+            <div class="investNo"><a>${investNo}</a></div>
           </div>
           <div class='dateWrapper'> 
           <div class="date">${creationDate}</div>
