@@ -23,15 +23,15 @@ body {
 }
 
 .Complete {
-    background: #007af2;
+    background: #74ac44;
 }
 
 .Active {
-    background: #0066CC;
+    background: #406c27;
 }
 
 .New {
-    background: #0e74da;
+    background: #406c27;
 }
 
 .totalcounter {
