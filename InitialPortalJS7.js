@@ -179,7 +179,7 @@ function renderInvestCards() {
           </div>
           <div class='dateWrapper'> 
           <div class="date">${creationDate}</div>
-          <img src='https://srv-k2five/Designer/Image.ashx?ImID=110252' />
+          <img src='https://cdn.jsdelivr.net/gh/julianogharzeddine/PIF@main/calendar-days%20(1).png' />
           </div>
           </div>
           <div class="cardBody">
