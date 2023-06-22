@@ -78,7 +78,7 @@ $(document).ready(function () {
     })
 
     
-    $(document).on('click', '#showAllInvestigations', function () {
+    $(document).on('click', '#makePurchase', function () {
       window.open("https://srv-k2five/Runtime/Runtime/Form/PO.SubmitForm/")
     })
 
@@ -305,7 +305,7 @@ function renderLegalServicesCards() {
     $('#legalservices-card-wrapper').html("")
     $('#legalservices-card-wrapper').append(`
     <div class="cardItem" id='makePurchase'>
-    <img src="https://github.com/julianogharzeddine/PIF/blob/main/purchase.jpg" class='titleImage'>
+    <img src="https://cdn.jsdelivr.net/gh/julianogharzeddine/PIF@main/purchase.jpg" class='titleImage'>
     <p class="cardTitle translatable">طلب شراء</p>
 </div>
 <div class="cardItem">
