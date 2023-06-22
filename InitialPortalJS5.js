@@ -63,14 +63,6 @@ $(document).ready(function () {
 
     createNotificationIcon()
 
-    // Showing Investigation Options
-
-    $(document).on('click', '#createInvestigationButton', function () {
-        $("[name='showTalabatTahkik hiddenButton']").trigger('click')
-
-        // Rendering Investigation buttons which shows the actions that can be taken
-        renderInvestOptions()
-    })
 
     
     $(document).on('click', '#makePurchase', function () {
@@ -113,26 +105,6 @@ $(document).ready(function () {
     });
 
 })
-
-function renderInvestOptions() {
-
-    $('#InvestigationCards').html("")
-    $('#InvestigationCards').append(`
-  <div class="cardItem" id='showAllInvestigations'>
-      <img src="https://cdn.jsdelivr.net/gh/nourkhansa20/CustomFiles@main/gavel-lawyer-books-isolated-white-justice-law-legal-concept-d-illustration-91106772-transformed.webp" class='titleImage'>
-      <p class="cardTitle translatable">طلبات التحقيق</p>
-  </div>
-  <div class="cardItem" onclick="goTo('https://srv-k2five/Runtime/Runtime/Form/Submit.Form/')">
-      <img src="https://cdn.jsdelivr.net/gh/nourkhansa20/CustomFiles@main/2000x1000_legal2.jpg" class='titleImage'>
-      <p class="cardTitle translatable">إجراء تحقيق</p>
-  </div>
-  <div class="cardItem"  onclick="goTo('https://srv-k2five/Runtime/Runtime/Form/InitialForm.Form/')">
-      <img src="https://cdn.jsdelivr.net/gh/nourkhansa20/CustomFiles@main/how-to-file-a-complaint.jpg" class='titleImage'>
-      <p class="cardTitle translatable">تقديم شكوى</p>
-  </div>
-  
-  `)
-}
 
 
 function createNotificationIcon() {
@@ -311,7 +283,7 @@ function renderLegalServicesCards() {
     <img src="https://cdn.jsdelivr.net/gh/julianogharzeddine/PIF@main/marketing.jpg" class='titleImage'>
     <p class="cardTitle translatable">التسويق</p></div>
 <div class="cardItem" id='showAllInvestigations'>
-    <img src="https://cdn.jsdelivr.net/gh/nourkhansa20/CustomFiles@main/conflict-of-interest-25e7ab7068414ab080d7563821681049.jpg" class='titleImage'>
+    <img src="https://cdn.jsdelivr.net/gh/nourkhansa20/CustomFiles@main/pexels-photo.jpg" class='titleImage'>
     <p class="cardTitle translatable">الطلبات</p></div>
   `)
 }
