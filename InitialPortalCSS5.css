@@ -450,14 +450,14 @@ div[name*="Worklist Card WT"] .WorklistItemGridRow:nth-child(odd) {
 div[name*="Worklist Card WT"] .WorkListGridHeader th span {
     font-size: 2.1ex !important;
     font-weight: bold !important;
-    color: #375626 !important;
+    color: #74a626 !important;
 
 }
 
 div[name*="Worklist Card WT"] .worklistToolbarHeaderTextWrapper span {
     font-size: 3.4ex !important;
     font-weight: bold !important;
-    color: #375626 !important;
+    color: #668d51 !important;
 }
 
 div[name*="Worklist Card WT"] td.worklistToolbarHeaderTextWrapper {
@@ -488,7 +488,7 @@ div[name*="Worklist Card WT"] span.text-underline {
 
 
 .LoadMoreHyperlink {
-    background: #06c !important;
+    background: #74a626 !important;
     color: white !important;
     border-radius: 2.5ex !important;
 
@@ -496,7 +496,7 @@ div[name*="Worklist Card WT"] span.text-underline {
 
 .LoadMoreHyperlink:hover {
     background: white !important;
-    color: #06c !important;
+    color: #74a626 !important;
     border: 1px solid  !important;
 }
 
