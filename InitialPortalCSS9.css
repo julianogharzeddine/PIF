@@ -675,3 +675,8 @@ input[name="Text Box"] {
 .dd-container span  {
     background : none !important ;;
 }
+
+.OverdueImageDiv {
+    background : black !important ;
+    border-radius : 100% ;
+}
