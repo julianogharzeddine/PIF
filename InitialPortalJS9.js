@@ -184,7 +184,7 @@ function renderInvestCards() {
           </div>
           <div class='dateWrapper'> 
           <div class="date">${creationDate}</div>
-          <img src='https://srv-k2five/Designer/Image.ashx?ImID=110252' />
+          <img src='https://srv-k2five/designer/Image.ashx?ImID=170289' />
           </div>
           </div>
           <div class="cardBody">
