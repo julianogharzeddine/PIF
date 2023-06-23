@@ -52,7 +52,7 @@ $(document).ready(function () {
         { "English": "Purchase No", "Arabic": "رقم الطلب", "French": "Numero" },
         { "English": "Today", "Arabic": "اليوم", "French": "Auj" },
         { "English": "Wed", "Arabic": "الأربعاء", "French": "Mer" },
-        { "English": "Thu", "Arabic": "الخميس", "French": "Jeu" },
+        { "English": "Thu", "Arabic": "الخميس", "French": "Jeu" }
        
 
     ];
@@ -168,12 +168,12 @@ function renderInvestCards() {
 
     rowObjects.forEach(function (row) {
 
-        var creatorName = row[2] !== undefined ? row[2] : '';
-        var creationDate = row[0] !== undefined ? row[0] : '';
-        var investStatus = row[1] !== undefined ? row[1] : '';
-        var subject = row[5] !== undefined ? row[5] : '';
+        var creatorName = row[0] !== undefined ? row[0] : '';
+        var creationDate = row[1] !== undefined ? row[1] : '';
+        var investStatus = row[2] !== undefined ? row[2] : '';
+        var subject = row[3] !== undefined ? row[3] : '';
         var investNo = row[4] !== undefined ? row[4] : '';
-        var statusColor = row[3] !== undefined ? row[3] : '';
+        var statusColor = row[5] !== undefined ? row[5] : '';
 
         cardWrapper.append(`
         <div class="cardItem">
@@ -194,7 +194,7 @@ function renderInvestCards() {
             </div>
             <div class="card-rows">
               <p class="reqCreator labelVal">${investStatus}</p>
-              <p class="reqCreatorLabel labelTitle translatable">الحالة</p>
+              <p class="reqCreatorLabel labelTitle translatable">حالة التحقيق</p>
             </div>
             <div class="card-rows">
               <p class="reqSubject labelVal">${subject}</p>
@@ -329,7 +329,6 @@ function translate() {
                 'direction': 'rtl'
             })
             $(".task-details h4").css("text-align", "left")
-        
             break
         case 'ar-SA':
             targetLang = 'Arabic'
@@ -350,7 +349,6 @@ function translate() {
                 'direction': 'ltr'
             })
             $(".task-details h4").css("text-align", "right")
-     
             break
         case 'fr-FR':
             targetLang = 'French'
@@ -370,7 +368,6 @@ function translate() {
                 'direction': 'rtl'
             })
             $(".task-details h4").css("text-align", "left")
-      
             break
     }
 
@@ -411,4 +408,3 @@ function renderTasks() {
 
     $('#myDropdown').append(htmlSnippet)
 }
-
