@@ -41,7 +41,7 @@ $(document).ready(function () {
         { "English": "Active", "Arabic": "النشطة", "French": "Actif" },
         { "English": "Completed", "Arabic": "المكتملة", "French": "Terminé" },
         { "English": "Created By", "Arabic": "انشا من قبل", "French": "Créé Par" },
-        { "English": "Investigation Status", "Arabic": "حالة التحقيق", "French": "Statut Enquête" },
+        { "English": "Status", "Arabic": "الحالة", "French": "Statut" },
         { "English": "Subject", "Arabic": "الموضوع", "French": "Sujet" },
         { "English": "Purchase", "Arabic": "طلب شراء", "French": "Achat" },
         { "English": "Sales", "Arabic": "المبيعات", "French": "Ventes" },
@@ -168,12 +168,12 @@ function renderInvestCards() {
 
     rowObjects.forEach(function (row) {
 
-        var creatorName = row[0] !== undefined ? row[0] : '';
-        var creationDate = row[1] !== undefined ? row[1] : '';
-        var investStatus = row[2] !== undefined ? row[2] : '';
-        var subject = row[3] !== undefined ? row[3] : '';
+        var creatorName = row[2] !== undefined ? row[2] : '';
+        var creationDate = row[0] !== undefined ? row[0] : '';
+        var investStatus = row[1] !== undefined ? row[1] : '';
+        var subject = row[5] !== undefined ? row[5] : '';
         var investNo = row[4] !== undefined ? row[4] : '';
-        var statusColor = row[5] !== undefined ? row[5] : '';
+        var statusColor = row[3] !== undefined ? row[3] : '';
 
         cardWrapper.append(`
         <div class="cardItem">
@@ -194,7 +194,7 @@ function renderInvestCards() {
             </div>
             <div class="card-rows">
               <p class="reqCreator labelVal">${investStatus}</p>
-              <p class="reqCreatorLabel labelTitle translatable">حالة التحقيق</p>
+              <p class="reqCreatorLabel labelTitle translatable">الحالة</p>
             </div>
             <div class="card-rows">
               <p class="reqSubject labelVal">${subject}</p>
@@ -329,6 +329,7 @@ function translate() {
                 'direction': 'rtl'
             })
             $(".task-details h4").css("text-align", "left")
+        
             break
         case 'ar-SA':
             targetLang = 'Arabic'
@@ -349,6 +350,7 @@ function translate() {
                 'direction': 'ltr'
             })
             $(".task-details h4").css("text-align", "right")
+     
             break
         case 'fr-FR':
             targetLang = 'French'
@@ -368,6 +370,7 @@ function translate() {
                 'direction': 'rtl'
             })
             $(".task-details h4").css("text-align", "left")
+      
             break
     }
 
