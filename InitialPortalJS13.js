@@ -124,25 +124,25 @@ function createNotificationIcon() {
 </div>
 
 <div id="dropdownContent" style="/* margin-top: 3px; */">
-  <a href="https://srv-k2five/Runtime/Runtime/Form/Review.Form/?SerialNo=39319_332&ServiceID=9c42e00c-db7b-479a-adda-7f762a815da2&Task=%D9%85%D9%83%D8%AA%D8%A8%20%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%81%D8%B8" target="_self">
+  <a href="https://srv-k2five/Runtime/Runtime/Form/PurchaseRequisition.ReveiwForm/?SerialNo=41381_9&ServiceID=ab1a44db-1147-49c0-9085-5479ab84cf6d" target="_self">
     <div class="date-icon translatable" style="background-color: #0066cc;">اليوم</div>
     <div class="task-details">
-      <h4>وكيل المحافظ للشؤون القانونية والحوكمة</h4>
-      <p>IAD - 001071</p>
+      <h4>Check stock availability</h4>
+      <p>PR - 001005</p>
     </div>
   </a>
-  <a href="task2.html" target="_self">
+  <a href="https://srv-k2five/Runtime/Runtime/Form/PurchaseRequisition.ReveiwForm/?SerialNo=41381_9&ServiceID=ab1a44db-1147-49c0-9085-5479ab84cf6d" target="_self">
     <div class="date-icon translatable" style="background-color: #0066cc;">الأربعاء</div>
     <div class="task-details">
-      <h4>تشكيل اللجنة</h4>
-      <p>IAD - 001073</p>
+      <h4>PR-SoW</h4>
+      <p>PR - 001002</p>
     </div>
   </a>
-  <a href="task3.html" target="_self">
+  <a href="https://srv-k2five/Runtime/Runtime/Form/PurchaseRequisition.ReveiwForm/?SerialNo=41381_9&ServiceID=ab1a44db-1147-49c0-9085-5479ab84cf6d" target="_self">
     <div class="date-icon translatable" style="background-color: #0066cc;">الخميس</div>
     <div class="task-details">
-      <h4>وكيل المحافظ للشؤون القانونية والحوكمة</h4>
-      <p>IAD - 001074</p>
+      <h4>Request necessary approvals</h4>
+      <p>PR - 001003</p>
     </div>
   </a>
 </div>
@@ -194,7 +194,7 @@ function renderInvestCards() {
             </div>
             <div class="card-rows">
               <p class="reqCreator labelVal">${investStatus}</p>
-              <p class="reqCreatorLabel labelTitle translatable">حالة التحقيق</p>
+              <p class="reqCreatorLabel labelTitle translatable">الحالة</p>
             </div>
             <div class="card-rows">
               <p class="reqSubject labelVal">${subject}</p>
