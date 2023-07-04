@@ -3,7 +3,7 @@
     // TODO: Your URL will be different to the one below.
     // Use the OData REST API Configuration page on the K2 Management site to determine base URL
     // then append the SmartObject system name
-    url: 'https://SRV-K2FIVE/api/odata/v3/',
+    url: 'https://SRV-K2FIVE/api/odata/v3/GetUsers',
     dataType: 'json',
     // As CORS is used, this must be set to true
     crossDomain: false,
@@ -20,7 +20,7 @@
     // for example, in the <div id="t1"><div> tag on a web page
     success: function (json_data) {
         console.log('success');
-        console.log(JSON.stringify(json_data));
+        console.log(json_data);
     },
     // In case of error, show an alert
     error: function () {
